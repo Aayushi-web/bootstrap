@@ -1,7 +1,8 @@
 /* for sidebar */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fongoogleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -9,11 +10,11 @@
 }
 
 .sidebar{
-background-color: aqua;
+background-color: rgb(233, 237, 203);
 
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 height: 100vh;
-width:22vw;
+width:12vw;
 
 }
 .sidebar nav{
@@ -25,22 +26,51 @@ width:22vw;
     padding: 30px 0;
 }
 .main{
-    background-color: rgb(204, 127, 255);
+    /* background-color: rgb(204, 127, 255); */
     width: 80vw;
 }.container{
     display: flex;
 }
 .infoContainer{
-    background-color: rgb(226, 208, 43);
-    height: 78vh;
+    background-color: rgb(176, 175, 171);
+    height: 58vh;
     width: 75vw;
     margin: 144px auto;
     display: flex;
     justify-content: space-around;
 }
+.devInfo{
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+.hello{
+font-size: 50px;
+font-family: 'Inconsolata', monospace;
+}
+.name{
+font-size: 45px;
+font-weight: bold;
+
+font-family: 'Inconsolata', monospace;
+}
+.about{
+font-size: 35px;
+
+font-family: 'Roboto', sans-serif;
+}
+.button button{
+
+}
 .devPic img{
-height: 75vh;
+height: 58vh;
 border-radius:50% 50% 50% 50% ;
 
 
+}
+.button{
+    margin-top: 44px;
+}
+.moreabout{
+  font-family:'Courier New', Courier, monospace;
 }
