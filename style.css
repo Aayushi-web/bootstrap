@@ -4,45 +4,51 @@
 @import url('https://fongoogleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-/* sidebar formatting */
-.sidebar{
-background-color: rgb(223, 232, 155);
 
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-height: 100vh;
-width:400px;
+/* sidebar formatting */
+.sidebar {
+    background-color: rgb(223, 232, 155);
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100vh;
+    width: 400px;
 
 }
-.sidebar nav{
+
+.sidebar nav {
     padding: 45px;
 }
+
 /* sidebar ka nav list */
-.sidebar nav li{
+.sidebar nav li {
     list-style: none;
     font-size: 25px;
     padding: 30px 0;
 }
+
 /* side bar anchore tag  */
-.sidebar nav li a{
-   text-decoration: none;
-   color: rgb(19, 22, 24);
-}
-.main{
-    /* background-color:  rgb(255 196 127); */
-    
-    width: 80vw;
-    
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(19, 22, 24);
 }
 
-.container{
+.main {
+    /* background-color:  rgb(255 196 127); */
+
+    width: 80vw;
+
+}
+
+.container {
     display: flex;
 }
+
 /* information as a whole outlook */
-.infoContainer{
+.infoContainer {
     /* background-color: rgb(176, 175, 171); */
     height: 70vh;
     width: 65vw;
@@ -51,75 +57,86 @@ width:400px;
     justify-content: space-around;
     padding-left: 33px;
 }
+
 /* my information  */
-.devInfo{
+.devInfo {
     display: flex;
-   justify-content: center;
+    justify-content: center;
     flex-direction: column;
 
 }
+
 /* hello styling */
-.hello{
-font-size: 30px;
-font-family: 'Inconsolata', monospace;
+.hello {
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
 }
+
 /* name  looks */
-.name{
-font-size:30px;
+.name {
+    font-size: 30px;
 
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 /* about me styling */
-.about{
-font-size: 25px;
-font-family: 'Roboto', sans-serif;
+.about {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 
 }
+
 /* styleing of button */
-.btn{
+.btn {
     padding: 9px 14px;
-   border-radius: 30px;
-   background-color: rgb(247, 249, 208);
-   background-size: 12px;
-   font-weight: bold;
-   margin: 0 3px;
-   color: rgb(60, 60, 228);
-   cursor:pointer;
-   
+    border-radius: 30px;
+    background-color: rgb(247, 249, 208);
+    background-size: 12px;
+    font-weight: bold;
+    margin: 0 3px;
+    color: rgb(60, 60, 228);
+    cursor: pointer;
+
 
 }
+
 /* button small size */
-.btn-sm{
+.btn-sm {
     font-size: 17px;
-   padding: 12px 17px;
-   margin: 12px 0;
+    padding: 12px 17px;
+    margin: 12px 0;
 }
+
 /* to syle hover */
-.btn:hover{
-    
-  color:antiquewhite;
-  background-color: rgb(60, 60, 228);
+.btn:hover {
+
+    color: antiquewhite;
+    background-color: rgb(60, 60, 228);
 }
+
 /* my pic style */
-.devPic img{
-height: 58vh;
-border-radius:50% 50% 50% 50% ;
+.devPic img {
+    height: 58vh;
+    border-radius: 50% 50% 50% 50%;
 
 
 }
+
 /* bottons style bt two buttons */
-.button{
+.button {
     margin-top: 44px;
 }
+
 /* moreabout styling */
-.moreabout{
- padding-top: 20px;
-font-family: 'Inconsolata', monospace;
-margin-top: 22px;
-} 
+.moreabout {
+    padding-top: 20px;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 22px;
+}
+
 /* contact form stylingg */
-.contactform{
-   
+.contactform {
+
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0 34px;
     padding-top: 148px;
@@ -129,36 +146,43 @@ margin-top: 22px;
     background-size: cover;
     height: 100vh;
     width: 100%;
-    color: rgb(160, 243, 134);
+    color: rgb(0, 255, 13);
 }
-.contactform h2{
-    text-align: center;
-    
 
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size:larger;
-font-weight: bolder;
-/* background-color: aqua; */
+.contactform h2 {
+    text-align: center;
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    /* background-color: aqua; */
 }
-.contactform  div{
+
+.contactform div {
     padding: 10px 0;
     display: flex;
     flex-direction: column;
 }
-.contactform form div input{
-width:18vw;
-border-radius: 8px;
+
+.contactform form div input {
+    width: 18vw;
+    border-radius: 8px;
 
 }
-#emailHelp{
+
+#emailHelp {
     font-size: 10px;
-    color: rgb(255, 0, 51);
+    color: rgb(21, 0, 255);
     margin: 0 5px;
 }
-#form-check{
-   flex-direction: row;
+
+#form-check {
+    flex-direction: row;
 }
-#form-check input{
+
+#form-check input {
     width: 13px;
     margin: 3px 0;
+    
 }
