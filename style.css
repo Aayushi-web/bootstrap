@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fongoogleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 * {
     margin: 0;
@@ -10,15 +11,24 @@
 }
 
 /* sidebar formatting */
+
 .sidebar {
-    background-color: rgb(223, 232, 155);
+    background-color:
+        rgba(220, 225, 208, 0.53);
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 100vh;
-    width: 400px;
+    height: 105vh;
+    /* width: 200px; */
+    transition: transform 0.5s ease-in;
+    /* position: absolute; */
 
 }
+.sidebarGo{
+  
+        transform: translate(-172px, 0px);
+}
 
+/* sidebar nav */
 .sidebar nav {
     padding: 45px;
 }
@@ -37,8 +47,8 @@
 }
 
 .main {
-    /* background-color:  rgb(255 196 127); */
-
+    background-color:  rgb(216, 244, 255);
+padding: 23px;
     width: 80vw;
 
 }
@@ -63,25 +73,25 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-
+font-size: 16px;
 }
 
 /* hello styling */
 .hello {
-    font-size: 30px;
+    font-size: 3em;
     font-family: 'Inconsolata', monospace;
 }
 
 /* name  looks */
 .name {
-    font-size: 30px;
+    font-size: 2.5em;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* about me styling */
 .about {
-    font-size: 25px;
+    font-size: 2.5em;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -90,21 +100,23 @@
 .btn {
     padding: 9px 14px;
     border-radius: 30px;
-    background-color: rgb(247, 249, 208);
+    background-color: rgb(249, 243, 208);
     background-size: 12px;
     font-weight: bold;
     margin: 0 3px;
     color: rgb(60, 60, 228);
     cursor: pointer;
+    font-size: 1em;
 
 
 }
 
 /* button small size */
 .btn-sm {
-    font-size: 17px;
-    padding: 12px 17px;
-    margin: 12px 0;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 10px 17px;
+    margin: 10px 0;
 }
 
 /* to syle hover */
@@ -124,29 +136,36 @@
 
 /* bottons style bt two buttons */
 .button {
-    margin-top: 44px;
+    margin-top:2.5px;
+    font-size: 10px;
+
 }
 
 /* moreabout styling */
 .moreabout {
     padding-top: 20px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Courier New', Courier, monospace;
     margin-top: 22px;
+    font-size: 1em;
 }
 
 /* contact form stylingg */
 .contactform {
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0 34px;
+    background-image: url(" https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80" );
+    background-size: 300px,100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 34px;
     padding-top: 148px;
-    background-image: url("");
+    margin: 0,88px;
+    
+
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
-    color: rgb(0, 255, 13);
+    color: rgb(5, 5, 11);
 }
 
 .contactform h2 {
@@ -166,8 +185,14 @@
 }
 
 .contactform form div input {
-    width: 18vw;
+    /* width: 18vw; */
     border-radius: 8px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+.contactform form {
+    margin: 0 40px;
 
 }
 
@@ -184,5 +209,134 @@
 #form-check input {
     width: 13px;
     margin: 3px 0;
+}
+/* blog items */
+.blogItem{
+    margin: 15px;
+    font-style: italic;
+    font-family: 'Indie Flower', cursive;
+
+}
+.blogContainer{
+    margin: 0,88px;
+}
+ h2{
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.intro{
+    margin: 0 88px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.intro h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 12px;
+
+}
+.skillContainer{
+    padding: 15px;
+}
+.skill{
     
+    width:450px;
+    height:8px;
+    background-color: rgb(0, 255, 225);
+    border: 2px solid black;
+}
+.skill1{
+    width:350px;
+    height:8px;
+    background-color: rgb(4, 255, 0);
+    border: 2px solid black;
+}
+.skill2{
+    width:300px;
+    height:8px;
+    background-color: rgb(244, 100, 10);
+    border: 2px solid black;
+}
+.skill3{
+    width:250px;
+    height:8px;
+    background-color: rgb(255, 248, 30);
+    border: 2px solid black;
+}
+.skill4{
+    width:180px;
+    height:8px;
+    background-color: rgb(0, 145, 255);
+    border: 2px solid black;
+}
+.skill5{
+    width:200px;
+    height:8px;
+    background-color: rgb(135, 7, 234);
+    border: 2px solid black;
+}
+.itemContainer{
+    display: flex;
+    align-items: center;
+}
+.project h2{
+    padding: 5px;
+    text-align: center;
+    color: rgb(34, 0, 255);
+
+}
+.projectName{
+font-size: large;
+font-weight: bolder;
+display: flexbox;
+padding: 20px;
+}
+
+@media (max-width:896px) {
+     *{
+        background-color: rgb(246, 247, 247);
+    } 
+    .devPic{
+        display: none;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    .button{
+        font-size:6px ;
+    }
+    .intro, .blogContainer, .contactform{
+        margin: 50px 8px;
+    /* /* .sidebar{
+        transform: translate(-172px, 0px); */
+        /* position: absolute; */
+     /* */ 
+    
+}
+/* uppar  mein jo "x" sign and hamburger sign hai sidebar ke samne */
+.hamBurgar{
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    margin: 0 88px;
+}
+.cross{
+    margin-left: 90px;
+    margin-top: 5px;
+}
+.hamcss{
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+}
+.media{
+    padding: 123px;
+    display: flex;
 }
